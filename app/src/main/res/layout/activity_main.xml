@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:background="#F0F3F5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:textColor="#6EA5D5"
+        android:textSize="158dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Userame1"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="#ffffff"
+        android:hint="Username" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Password1"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="#ffffff"
+        android:hint="Password" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn"
+        android:text="Sig in"
+        android:background="#83BAEB"
+        android:textColor="#F1EDED"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/tvreg"
+        android:gravity="center"
+        android:textColor="#5B9ED8"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="New Acount? Klick here"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="Registrasi"
+        android:background="#F0F3F5"
+        android:textColor="#1E88E5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="25dp"/>
+
+
+
+</LinearLayout>
+
+</LinearLayout>
